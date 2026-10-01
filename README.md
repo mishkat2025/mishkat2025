@@ -21,4 +21,4 @@ Tools & Deployment	Git · GitHub · Docker · Linux · Nginx · PM2 · Coolify
 <div align="center">
 Let's build something together — reach me at sbmishkat10@gmail.com
 
-<img src="https://komarev.com/ghpvc/?username=mishkat2025&color=0f766e&style=flat-square&label=Profile+views" alt="Profile views" /> </div>
+</div>
