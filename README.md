@@ -27,11 +27,11 @@
 
 ## 🛠️ Tech stack
 
-<img src="https://skillicons.dev/icons?i=python,cpp,js,java,react,nodejs,express,mongodb,postgres,pytorch,git,github,docker,linux,nginx&perline=8" alt="Tech stack" />
+<img src="https://skillicons.dev/icons?i=python,cpp,js,ts,java,react,nodejs,express,mongodb,postgres,pytorch,git,github,docker,linux,nginx&perline=8" alt="Tech stack" />
 
 | Area | Tools |
 | :---: | :---: |
-| **Languages** | Python · C/C++ · JavaScript · SQL · Java |
+| **Languages** | Python · C/C++ · JavaScript · TypeScript · SQL · Java |
 | **AI & Data** | Machine Learning · PyTorch · Pandas · Transformers · LLMs · RAG · ChromaDB |
 | **Web & Backend** | React · Node.js · Express · REST APIs · MongoDB · PostgreSQL |
 | **Tools & Deployment** | Git · GitHub · Docker · Linux · Nginx · PM2 · Coolify |
@@ -40,7 +40,7 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="33%" valign="top" align="center">
       <h4>🍳 <a href="https://CookedByAdor.com">Cooked by Ador</a></h4>
       <sub><b>Freelance · 2026 – present</b></sub>
       <p>A full-stack student management system for a coaching business, taken from requirements to production launch.</p>
@@ -58,9 +58,9 @@
         <img src="https://img.shields.io/badge/Express-000000?logo=express&logoColor=white" alt="Express" />
         <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
       </p>
-      <a href="https://CookedByAdor.com"><b>Live site →</b></a>
+      <a href="https://CookedByAdor.com"><b>Live site&nbsp;→</b></a>
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="33%" valign="top" align="center">
       <h4>📚 <a href="https://github.com/mishkat2025/rag-project-bluebook">EWU Bulletin RAG Assistant</a></h4>
       <sub><b>Personal project · 2026</b></sub>
       <p>A question-answering system for programs and policies in the East West University bulletin.</p>
@@ -77,7 +77,27 @@
         <img src="https://img.shields.io/badge/Gemma-4285F4?logo=google&logoColor=white" alt="Gemma" />
         <img src="https://img.shields.io/badge/LM_Studio-6E56CF" alt="LM Studio" />
       </p>
-      <a href="https://github.com/mishkat2025/rag-project-bluebook"><b>Source →</b></a>
+      <a href="https://github.com/mishkat2025/rag-project-bluebook"><b>Source&nbsp;→</b></a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <h4>🧮 <a href="https://cs2-for-everyone.netlify.app">CS² for Everyone</a></h4>
+      <!-- TODO: cs2-for-everyone.netlify.app is a placeholder; swap in the real Netlify URL here and in "Live site" below -->
+      <sub><b>Personal project · 2026</b></sub>
+      <p>An interactive site that animates 28 computer science concepts one step at a time.</p>
+      <div align="left">
+        <ul>
+          <li>Classical ciphers, RSA, Diffie-Hellman and SHA-256, plus the attacks that break them</li>
+          <li>Sorting, searching, data structures and BFS/DFS graph search</li>
+          <li>Code panel in Python, Java, C++ or C highlights every step</li>
+        </ul>
+      </div>
+      <p>
+        <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+      </p>
+      <a href="https://cs2-for-everyone.netlify.app"><b>Live site&nbsp;→</b></a> · <a href="https://github.com/mishkat2025/cs2_everyone"><b>Source&nbsp;→</b></a>
     </td>
   </tr>
 </table>
