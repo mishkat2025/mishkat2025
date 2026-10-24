@@ -80,8 +80,7 @@
       <a href="https://github.com/mishkat2025/rag-project-bluebook"><b>Source&nbsp;→</b></a>
     </td>
     <td width="33%" valign="top" align="center">
-      <h4>🧮 <a href="https://cs2-for-everyone.netlify.app">CS² for Everyone</a></h4>
-      <!-- TODO: cs2-for-everyone.netlify.app is a placeholder; swap in the real Netlify URL here and in "Live site" below -->
+      <h4>🧮 <a href="https://cs2-everyone.sbmishkat10.workers.dev">CS² for Everyone</a></h4>
       <sub><b>Personal project · 2026</b></sub>
       <p>An interactive site that animates 28 computer science concepts one step at a time.</p>
       <div align="left">
@@ -97,7 +96,7 @@
         <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" />
         <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
       </p>
-      <a href="https://cs2-for-everyone.netlify.app"><b>Live site&nbsp;→</b></a> · <a href="https://github.com/mishkat2025/cs2_everyone"><b>Source&nbsp;→</b></a>
+      <a href="https://cs2-everyone.sbmishkat10.workers.dev"><b>Live site&nbsp;→</b></a> · <a href="https://github.com/mishkat2025/cs2_everyone"><b>Source&nbsp;→</b></a>
     </td>
   </tr>
 </table>
