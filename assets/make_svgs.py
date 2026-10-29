@@ -14,6 +14,7 @@ so text uses the viewer's monospace font and every animation is SMIL/CSS.
 """
 import math
 import random
+import re
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -715,7 +716,7 @@ def room_svg():
     for j, line in enumerate(SCREEN):
         t0 = .4 + j * 1.2
         keys = f"0;{n(t0 / period)};{n((period - .3) / period)}"
-        o.append(f'<text x="728" y="{122 + j * 11}" font-size="7" fill="{ACCENT}" opacity="0">{esc(line)}'
+        o.append(f'<text data-still="1" x="728" y="{122 + j * 11}" font-size="7" fill="{ACCENT}" opacity="0">{esc(line)}'
                  f'<animate attributeName="opacity" calcMode="discrete" values="0;.95;0" keyTimes="{keys}" dur="{n(period)}s" repeatCount="indefinite"/></text>')
     o.append(f'<rect x="728" y="168" width="4" height="7" fill="{ACCENT}"><animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;.5" dur="1s" repeatCount="indefinite"/></rect>')
     o.append(f'<polygon points="852,132 878,132 900,196 834,196" fill="url(#lamp)"/>'
@@ -767,7 +768,8 @@ def room_svg():
     path = [(0, A), (3.2, A), (3.4, (160, 290)), (3.6, B), (4.6, B), (8.6, C), (11.0, C), (15.0, B),
             (15.2, (160, 290)), (15.4, A), (T, A)]
     lie_body, _, _ = cat(lie=1, closed=1, tail=.6, battery=True)
-    o.append(f'<g><animateTransform attributeName="transform" type="translate" dur="{n(T)}s" repeatCount="indefinite" '
+    # The transform attribute is where the still version (no animation) leaves the cat: asleep in its pod.
+    o.append(f'<g transform="translate({n(A[0])} {n(A[1])})"><animateTransform attributeName="transform" type="translate" dur="{n(T)}s" repeatCount="indefinite" '
              f'keyTimes="{";".join(n(t / T) if t else "0" for t, _ in path)}" values="{";".join(f"{n(x)} {n(y)}" for _, (x, y) in path)}"/>'
              f'<g><animateTransform attributeName="transform" type="scale" calcMode="discrete" dur="{n(T)}s" repeatCount="indefinite" '
              f'keyTimes="0;{n(11 / T)};{n(15.4 / T)}" values="1 1;-1 1;1 1"/>'
@@ -826,7 +828,17 @@ def divider_svg():
             f'{"".join(o)}</svg>')
 
 
+def still(svg):
+    """The same picture with every animation removed (for reduced motion).
+    The cat stays asleep in its pod; the desk screen shows its text."""
+    svg = re.sub(r'<(?:animate|animateTransform|set)\b[^>]*/>', '', svg)
+    svg = re.sub(r'(<[^>]*data-still="1"[^>]*?) opacity="0"', r'\1', svg)
+    return svg.replace('<style>', '<style>*{animation:none!important}', 1)
+
+
 if __name__ == "__main__":
-    for name, build in (("terminal.svg", terminal_svg), ("room.svg", room_svg), ("divider.svg", divider_svg)):
-        (OUT / name).write_text(build(), encoding="utf-8")
+    room = room_svg()
+    for name, svg in (("terminal.svg", terminal_svg()), ("room.svg", room),
+                      ("room-still.svg", still(room)), ("divider.svg", divider_svg())):
+        (OUT / name).write_text(svg, encoding="utf-8")
         print("wrote", name)
