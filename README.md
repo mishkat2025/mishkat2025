@@ -10,7 +10,7 @@
 <img src="assets/room.svg" width="100%" alt="A cozy night-time room where a neon robot cat sleeps in its charging basket, wakes up, chases a laser dot across the rug and goes back to bed. The walls show a neon sign for mishkat2025.github.io, a B.Sc. in CSE from East West University (class of 2027), sticky notes for each project and a map pinned on Dhaka; the bookshelf spines list the skills." />
 
 <p>
-  <a href="https://mishkat2025.github.io"><img height="34" src="https://img.shields.io/badge/Portfolio-mishkat2025.github.io-00ff88?style=for-the-badge&logo=googlechrome&logoColor=00b35f&labelColor=0d1117" alt="Portfolio" /></a>
+  <a href="https://mishkat2025.github.io"><img height="34" src="https://img.shields.io/badge/Portfolio-mishkat2025.github.io-00ff88?style=for-the-badge&logo=googlechrome&logoColor=00ff88&labelColor=0d1117" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/saleh-billah/"><img height="34" src="https://img.shields.io/badge/LinkedIn-saleh--billah-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117" alt="LinkedIn" /></a>
   <a href="mailto:sbmishkat10@gmail.com"><img height="34" src="https://img.shields.io/badge/Email-sbmishkat10%40gmail.com-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117" alt="Email" /></a>
   <a href="https://mishkat2025.github.io/resume.pdf"><img height="34" src="https://img.shields.io/badge/Résumé-PDF-161b22?style=for-the-badge&logo=readdotcv&logoColor=00ff88&labelColor=0d1117" alt="Résumé" /></a>
