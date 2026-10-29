@@ -2,9 +2,10 @@
 
 <!-- Animated SVGs in assets/ are built by assets/make_svgs.py; edit the text there and re-run it. -->
 
-<a href="https://mishkat2025.github.io">
+<!-- <picture> stops GitHub from turning the image into a link; the Portfolio button below is the link. -->
+<picture>
   <img src="assets/terminal.svg" width="100%" alt="Terminal: Abu Zafar Mohammad Saleh Billah Mishkat, full-stack developer and final-year CSE student (Data Science & AI) at East West University, Dhaka. Projects: a live student management system, the EWU Bulletin RAG Assistant and CS² for Everyone. Open to freelance projects and full-time roles." />
-</a>
+</picture>
 
 <img src="assets/room.svg" width="100%" alt="A cozy night-time room where a neon robot cat sleeps in its charging basket, wakes up, chases a laser dot across the rug and goes back to bed. The walls show a neon sign for mishkat2025.github.io, a B.Sc. in CSE from East West University (class of 2027), sticky notes for each project and a map pinned on Dhaka; the bookshelf spines list the skills." />
 
