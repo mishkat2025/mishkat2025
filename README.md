@@ -1,17 +1,21 @@
 <div align="center">
 
-# Hi, I'm Abu Zafar Mohammad Saleh Billah Mishkat 👋
+<!-- Animated SVGs in assets/ are built by assets/make_svgs.py; edit the text there and re-run it. -->
 
 <a href="https://mishkat2025.github.io">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&center=true&vCenter=true&width=560&lines=Full-Stack+Software+Developer;Data+Science+%26+AI+Student+%40+EWU;Building+RAG+apps+with+local+LLMs;Open+to+freelance+%26+full-time+roles" alt="Typing intro" />
+  <img src="assets/terminal.svg" width="100%" alt="Terminal: Abu Zafar Mohammad Saleh Billah Mishkat, full-stack developer and final-year CSE student (Data Science & AI) at East West University, Dhaka. Projects: a live student management system, the EWU Bulletin RAG Assistant and CS² for Everyone. Open to freelance projects and full-time roles." />
 </a>
 
+<img src="assets/room.svg" width="100%" alt="A cozy night-time room where a neon robot cat sleeps in its charging basket, wakes up, chases a laser dot across the rug and goes back to bed. The walls show a neon sign for mishkat2025.github.io, a B.Sc. in CSE from East West University (class of 2027), sticky notes for each project and a map pinned on Dhaka; the bookshelf spines list the skills." />
+
 <p>
-  <a href="https://mishkat2025.github.io"><img src="https://img.shields.io/badge/Portfolio-mishkat2025.github.io-0f766e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/saleh-billah/"><img src="https://img.shields.io/badge/LinkedIn-saleh--billah-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:sbmishkat10@gmail.com"><img src="https://img.shields.io/badge/Email-sbmishkat10%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://mishkat2025.github.io/resume.pdf"><img src="https://img.shields.io/badge/Résumé-PDF-555555?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Résumé" /></a>
+  <a href="https://mishkat2025.github.io"><img height="34" src="https://img.shields.io/badge/Portfolio-mishkat2025.github.io-00ff88?style=for-the-badge&logo=googlechrome&logoColor=00ff88&labelColor=0d1117" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/saleh-billah/"><img height="34" src="https://img.shields.io/badge/LinkedIn-saleh--billah-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117" alt="LinkedIn" /></a>
+  <a href="mailto:sbmishkat10@gmail.com"><img height="34" src="https://img.shields.io/badge/Email-sbmishkat10%40gmail.com-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117" alt="Email" /></a>
+  <a href="https://mishkat2025.github.io/resume.pdf"><img height="34" src="https://img.shields.io/badge/Résumé-PDF-161b22?style=for-the-badge&logo=readdotcv&logoColor=00ff88&labelColor=0d1117" alt="Résumé" /></a>
 </p>
+
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## 🧑‍💻 About me
 
@@ -104,13 +108,13 @@
 ## 📊 GitHub stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mishkat2025&show_icons=true&hide_border=true&count_private=true&theme=transparent" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mishkat2025&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mishkat2025&theme=transparent" alt="GitHub stats" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mishkat2025&theme=transparent" alt="Most used languages" />
 </p>
 
-<img src="https://streak-stats.demolab.com?user=mishkat2025&hide_border=true&theme=transparent" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=mishkat2025&hide_border=true&theme=transparent&ring=00c46a&fire=00c46a&currStreakLabel=00c46a" alt="GitHub streak" />
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 **Let's build something together** — reach me at [sbmishkat10@gmail.com](mailto:sbmishkat10@gmail.com)
 
